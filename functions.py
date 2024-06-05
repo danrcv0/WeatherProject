@@ -9,7 +9,9 @@ conditions = {
     'плотный туман': 'https://www.sunhome.ru/i/foto/55/tuman-v5.orig.jpg',
     'переменная облачность': 'https://cs9.pikabu.ru/post_img/2017/06/28/11/og_og_149867949222613491.jpg',
     'небольшой дождь': 'https://www.fonstola.ru/images/201111/fonstola.ru_52367.jpg',
-    'облачно с прояснениями': 'https://zp-news.ru/img/20231113/cb7d6bef8ab831669b9da6c879d7893e.jpg'
+    'облачно с прояснениями': 'https://zp-news.ru/img/20231113/cb7d6bef8ab831669b9da6c879d7893e.jpg',
+    'мгла': 'https://get.pxhere.com/photo/tree-snow-winter-black-and-white-fog-mist-morning-frost-dawn-atmosphere-weather-haze-monochrome-season-trees-blizzard-freezing-monochrome-photography-atmospheric-phenomenon-winter-storm-282562.jpg',
+    'туман': 'https://gas-kvas.com/grafic/uploads/posts/2023-10/1696529473_gas-kvas-com-p-kartinki-tuman-7.jpg'
 }
 
 
