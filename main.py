@@ -1,8 +1,6 @@
 from flask import Flask
 from flask import Flask, request, render_template, redirect
-from flask_sqlalchemy import SQLAlchemy
 from functions import *
-from g4f.client import Client
 
 
 app = Flask(__name__)
