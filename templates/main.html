@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}Погода{% endblock %}
+
+
+  {% block content %} 
+  <body style='background-image: url("{{ condition }}")'>
+  <div class="container">
+        <form action="/" method="post" class="search">
+          <input name='City' placeholder='Город...' class="form-control">
+          <button type='submit' value='Поиск'>Поиск</button>
+        </form>
+        <div class="Items">
+          <div class="item">
+            <h2>{{ city }}</h2> 
+            <p> {{ first[0] }}<br> {{ first[1] }} <br>  {{ first[3] }}<br> {{ first[2] }} <br> {{ first[4] }}</p> <br>
+            <p style='text-align: left;'>{{ tip }} </p>
+
+        </div>
+      </div>
+
+</body>
+  {% endblock %}
