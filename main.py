@@ -21,7 +21,6 @@ def hello_world():
         try:
             state, temp, pressure, humidity, wind = get_weather(city=city)
 
-            print(tip)
 
             first = [state, f'{int(temp)}℃', f'давление - {pressure}',
                      f'влажность - {humidity}%', f'скорость ветра - {wind}м/c']
@@ -33,9 +32,8 @@ def hello_world():
     state, temp, pressure, humidity, wind = get_weather(city="Ростов-на-Дону")
     first = [state, f'{int(temp)}℃', f'давление - {pressure}',
              f'влажность - {humidity}%', f'скорость ветра - {wind}м/c']
-    info = ['Росто́в-на-Дону́ (сокращённо часто — Ростов) — крупнейший город на юго-западе России, административный центр Южного федерального округа и Ростовской области.',
-            'Город воинской славы (2008).', 'Основан в 1749 году.', 'Население 1 140 487 человек (2024)', 'Климат Ростова-на-Дону умеренно континентальный.', 'Часовой пояс	UTC+3:00']
-    return render_template('main.html', city="Ростов-на-Дону",  condition=conditions[state], first=first, tip=f'{get_tip(temp, state, humidity, wind)}😇', info=info)
+   
+    return render_template('main.html', city="Ростов-на-Дону",  condition=conditions[state], first=first, tip=f'{get_tip(temp, state, humidity, wind)}😇')
 
 
 @app.route("/API/<city>")
